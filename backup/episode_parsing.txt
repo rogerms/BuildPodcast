@@ -1,0 +1,41 @@
+        async void getEpisodes(PodcastEpisodes pEpisodes, string url)
+        {
+
+            //progressRing.IsActive = true;
+
+            //await showDialog("setDataContext");
+            HttpClient client = new HttpClient();
+            HttpResponseMessage response = await client.GetAsync(url);
+            string xmlStr = await response.Content.ReadAsStringAsync();
+
+            xmlStr = xmlStr.Replace("itunes:", "itunes-");
+            Debug.WriteLine(xmlStr);
+
+            XmlDocument doc = new XmlDocument();
+            doc.LoadXml(xmlStr);
+
+            Debug.WriteLine("total items " + doc.GetElementsByTagName("item").Count);
+
+            //this.DataContext = podcasts.Items;
+
+            foreach (XmlElement elem in doc.GetElementsByTagName("item"))
+            {
+                //Debug.WriteLine("title " + elem.GetElementsByTagName("title")[0].InnerText);
+                //Debug.WriteLine("duration " + elem.GetElementsByTagName("itunes-duration")[0].InnerText);
+                ////Debug.WriteLine("description " + elem.GetElementsByTagName("description")[0].InnerText);
+                //Debug.WriteLine("pubdate " + elem.GetElementsByTagName("pubDate")[0].InnerText);
+                episodes.addItem(new Episode
+                {
+                    title = getNodeValue(elem, "title"),
+                    //url = elem.GetElementsByTagName("url")[0].InnerText,
+                    //summary = elem.GetElementsByTagName("summary")[0].InnerText,
+                    //author = elem.GetElementsByTagName("author")[0].InnerText,
+                    //category = elem.GetElementsByTagName("category")[0].InnerText,
+                    // description = elem.GetElementsByTagName("description")[0].InnerText,
+                    //keywords = elem.GetElementsByTagName("keywords")[0].InnerText,
+                    //language = elem.GetElementsByTagName("language")[0].InnerText,
+                    pubDate = getNodeValue(elem, "pubDate"),
+                }
+                    );
+            }
+        }

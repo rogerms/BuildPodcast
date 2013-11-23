@@ -1,0 +1,81 @@
+﻿{
+    channel:[
+        {
+            id:1,
+            title:'NBC Meet the Press (video)',
+            description:'Watch NBC\'s "Meet the Press," featuring headline-making interviews with world leaders and U.S. newsmakers every Sunday morning. This video podcast, published each Sunday by NBCNews.com, brings you each show in its entirety. For more from "Meet the Press" visit MeetThePressNBC.com',
+            url:'http://podcastfeeds.nbcnews.com/audio/podcast/MSNBC-MTP-NETCAST-M4V.xml',
+            link:'http://MeetThePressNBC.com',
+            language:'en-us',
+            keywords:'russert,politics,political,government,congress,president,campaign,policy,debate,analysis,public,issues',
+            category:{
+            },
+            pubdate:'Sun, 19 May 2013 10:36:29 PST',
+            author:'NBC News',
+            imageurl:'http://msnbcpod.vo.llnwd.net/l1/audio/podcast/images/pdv_mtp_netcast.jpg'
+        },
+        {
+            id:134,
+            title:'WFIU-FM: WFIU: Moment of Indiana History Podcast',
+            description:'Weekly 2-minute program on Indiana History produced by WFIU Public Media in association with the Indiana Public Broadcasting Stations.',
+            url:'http://www.npr.org/rss/podcast.php?id=510154',
+            link:'http://indianapublicmedia.org/momentofindianahistory',
+            language:'en-US',
+            keywords:'indiana,history,historical,podcast,wfiu,indiana public broadcasting,ipbs,WFIU,WFIU FM,Moment of Indiana History,Bloomington,Indiana',
+            category:{
+            },
+            pubdate:{
+            },
+            author:'WFIU Public Media (wfiu.org)',
+            imageurl:'http://media.npr.org/images/podcasts/primary/icon_510154.jpg'
+        },
+        {
+            id:2,
+            title:'NBC Meet the Press (audio)',
+            description:'Listen to NBC\'s "Meet the Press," featuring headline-making interviews with world leaders and U.S. newsmakers every Sunday morning. This audio podcast, published each Sunday by NBCNews.com, brings you each show in its entirety. For more from "Meet the Press" visit MeetThePressNBC.com',
+            url:'http://podcastfeeds.nbcnews.com/audio/podcast/MSNBC-MTP.xml',
+            link:'http://MeetThePressNBC.com',
+            language:'en-us',
+            keywords:'russert,politics,political,government,congress,president,campaign,policy,debate,analysis,public,issues',
+            category:{
+            },
+            pubdate:'Sun, 19 May 2013 09:33:09 PST',
+            author:'NBC News',
+            imageurl:'http://msnbcpod.vo.llnwd.net/l1/audio/podcast/images/pd_mtp.jpg'
+        },
+        {
+            id:3,
+            title:'NBC Nightly News (video)',
+            description:'Watch "NBC Nightly News with Brian Williams," providing reports and analysis of the day\'s most newsworthy national and international events. This video podcast, updated each weekday evening by NBCNews.com, brings you the day\'s show in its entirety. For more from "Nightly News", visit http://nbcnightlynews.com/',
+            url:'http://podcastfeeds.nbcnews.com/audio/podcast/MSNBC-NN-NETCAST-M4V.xml',
+            link:'http://nbcnightlynews.com/',
+            language:'en-US',
+            keywords:'william,bryan,world,politics,political,government,congress,president,campaign,policy,war,information',
+            category:{
+            },
+            pubdate:'Tue, 28 May 2013 17:03:14 PST',
+            author:'NBC News',
+            imageurl:'http://msnbcpod.vo.llnwd.net/l1/audio/podcast/images/pdv_nn_netcast.jpg'
+        },
+        {
+            id:0,
+            title:'Add New',
+            description:'Click on this button to add more episodes to your favorites',
+            url:{
+            },
+            link:{
+            },
+            language:{
+            },
+            keywords:{
+            },
+            category:{
+            },
+            pubdate:{
+            },
+            author:{
+            },
+            imageurl:'ms-appx:/Assets/add-sign.png'
+        }
+    ]
+}

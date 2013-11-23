@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<channels>
+  <channel>
+    <id>134</id>
+    <title>WFIU-FM: WFIU: Moment of Indiana History Podcast</title>
+    <description>Weekly 2-minute program on Indiana History produced by WFIU Public Media in association with the Indiana Public Broadcasting Stations.</description>
+    <url>http://www.npr.org/rss/podcast.php?id=510154</url>
+    <link>http://indianapublicmedia.org/momentofindianahistory</link>
+    <language>en-US</language>
+    <keywords>indiana,history,historical,podcast,wfiu,indiana public broadcasting,ipbs,WFIU,WFIU FM,Moment of Indiana History,Bloomington,Indiana</keywords>
+    <category />
+    <pubdate />
+    <author>WFIU Public Media (wfiu.org)</author>
+    <imageurl>http://media.npr.org/images/podcasts/primary/icon_510154.jpg</imageurl>
+  </channel>
+  <channel>
+    <id>1</id>
+    <title>NBC Meet the Press (video)</title>
+    <description>Watch NBC's "Meet the Press," featuring headline-making interviews with world leaders and U.S. newsmakers every Sunday morning. This video podcast, published each Sunday by NBCNews.com, brings you each show in its entirety. For more from "Meet the Press" visit MeetThePressNBC.com</description>
+    <url>http://podcastfeeds.nbcnews.com/audio/podcast/MSNBC-MTP-NETCAST-M4V.xml</url>
+    <link>http://MeetThePressNBC.com</link>
+    <language>en-us</language>
+    <keywords>russert,politics,political,government,congress,president,campaign,policy,debate,analysis,public,issues</keywords>
+    <category />
+    <pubdate>Sun, 19 May 2013 10:36:29 PST</pubdate>
+    <author>NBC News</author>
+    <imageurl>http://msnbcpod.vo.llnwd.net/l1/audio/podcast/images/pdv_mtp_netcast.jpg</imageurl>
+  </channel>
+  <channel>
+    <id>2</id>
+    <title>NBC Meet the Press (audio)</title>
+    <description>Listen to NBC's "Meet the Press," featuring headline-making interviews with world leaders and U.S. newsmakers every Sunday morning. This audio podcast, published each Sunday by NBCNews.com, brings you each show in its entirety. For more from "Meet the Press" visit MeetThePressNBC.com</description>
+    <url>http://podcastfeeds.nbcnews.com/audio/podcast/MSNBC-MTP.xml</url>
+    <link>http://MeetThePressNBC.com</link>
+    <language>en-us</language>
+    <keywords>russert,politics,political,government,congress,president,campaign,policy,debate,analysis,public,issues</keywords>
+    <category />
+    <pubdate>Sun, 19 May 2013 09:33:09 PST</pubdate>
+    <author>NBC News</author>
+    <imageurl>http://msnbcpod.vo.llnwd.net/l1/audio/podcast/images/pd_mtp.jpg</imageurl>
+  </channel>
+  <channel>
+    <id>3</id>
+    <title>NBC Nightly News (video)</title>
+    <description>Watch "NBC Nightly News with Brian Williams," providing reports and analysis of the day's most newsworthy national and international events. This video podcast, updated each weekday evening by NBCNews.com, brings you the day's show in its entirety. For more from "Nightly News", visit http://nbcnightlynews.com/</description>
+    <url>http://podcastfeeds.nbcnews.com/audio/podcast/MSNBC-NN-NETCAST-M4V.xml</url>
+    <link>http://nbcnightlynews.com/</link>
+    <language>en-US</language>
+    <keywords>william,bryan,world,politics,political,government,congress,president,campaign,policy,war,information</keywords>
+    <category />
+    <pubdate>Tue, 28 May 2013 17:03:14 PST</pubdate>
+    <author>NBC News</author>
+    <imageurl>http://msnbcpod.vo.llnwd.net/l1/audio/podcast/images/pdv_nn_netcast.jpg</imageurl>
+  </channel>
+  <channel>
+    <id>0</id>
+    <title>Add New</title>
+    <description>Click on this button to add more episodes to your favorites</description>
+    <url></url>
+    <link></link>
+    <language></language>
+    <keywords></keywords>
+    <category />
+    <pubdate></pubdate>
+    <author></author>
+    <imageurl>ms-appx:/Assets/add-sign.png</imageurl>
+  </channel>
+</channels>

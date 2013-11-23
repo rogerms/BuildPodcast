@@ -1,0 +1,3 @@
+Windows.System.Display.DisplayRequest displayRequest = new Windows.System.Display.DisplayRequest();
+displayRequest.RequestActive();
+displayRequest.RequestRelease();

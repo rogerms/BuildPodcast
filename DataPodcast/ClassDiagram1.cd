@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DataPodcast.JsonSerialization" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>JsonSerialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPodcast.Podcast">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAACQAAAAAgEIAAAAIAAAAAIAAAAIAAIQAAAIkA=</HashCode>
+      <FileName>Podcast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPodcast.Episode">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAIAQMAAACAMIEAAAIAMAAAJAAAAAAAAAAAAgEA=</HashCode>
+      <FileName>Podcast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPodcast.PodcastCollection">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAACAAAAAGAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Podcast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPodcast.PodcastEpisodes">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAACAAAAACAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Podcast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

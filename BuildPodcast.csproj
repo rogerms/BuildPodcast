@@ -238,13 +238,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataPodcast\DataPodcast.csproj">
+    <ProjectReference Include="DataPodcast\DataPodcast.csproj">
       <Project>{397bc7d1-1051-4468-9316-76e1030ffba6}</Project>
       <Name>DataPodcast</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PeriodicTask\PeriodicTask.csproj">
-      <Project>{cdcfaf01-73d2-45fa-bab9-64668d2cedb6}</Project>
-      <Name>PeriodicTask</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
